@@ -33,6 +33,7 @@ we put in an object with the keys as the first argument and a callback url.
 2nd argument is the function that acquires the data given by oauth
 Data that we asked for like the email and profile
 */
+// proxy true is so googlestrategy wil handle the proxy
 passport.use(
   new GoogleStrategy(
     {
